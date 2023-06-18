@@ -1,3 +1,313 @@
-.main-section{
-    /* пошел в жопу */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+}
+
+.layout>.header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.layout>.header>.brand {
+    width: 20%;
+}
+
+.layout>.header>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.layout>.header>.menu {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.layout>.header>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+}
+
+.layout>.footer {
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout>.footer>.brand {
+    padding-left: 90px;
+    width: 24%;
+}
+
+
+.layout>.footer>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+.layout>.footer>.socialmedia {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.layout>.footer>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-right: 90px;
+}
+
+.layout>.content {
+    width: 100%;
+}
+
+.layout>.content>.main-section {
+    padding: 0 90px;
+}
+
+.layout>.content>.main-section>.first-block {
+    padding: 38px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container {
+    margin: 0 auto;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    width: 824px;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 43px 0 0 0;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>button {
+    padding: 26px 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    width: 333px;
+    font-size: 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>button:hover {
+    transition: all 0.5s ease;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>.callback-btn {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>.get-consult-btn {
+    background: white;
+    border-color: black;
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>.callback-btn:hover {
+    background: rgb(46, 46, 46);
+}
+
+.layout>.content>.main-section>.first-block>.offer-container>.buttons>.get-consult-btn:hover {
+    background: rgb(222, 222, 222);
+}
+
+.layout>.content>.main-section>.first-block>.review {
+    width: 260px;
+}
+
+.layout>.content>.main-section>.first-block>.review>.description {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.layout>.content>.main-section>.first-block>.review>.review-btn {
+    border: none;
+    background: white;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+.layout>.content>.main-section>.first-block>.review>.review-btn>p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.layout>.content>.main-section>.first-block>.review>.review-btn>.arrow {
+    display: inline-block;
+    align-items: center;
+}
+
+.layout>.content>.main-section>.first-block>.review>.review-btn>.arrow>img {
+    width: 42px;
+    height: 10px;
+}
+
+.layout>.content>.main-section>.first-block>.socialmedia {
+    width: 280px;
+    height: 300px;
+}
+
+.layout>.content>.main-section>.first-block>.socialmedia>ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.layout>.content>.main-section>.images-block {
+    height: 550px;
+    padding-bottom: 150px;
+}
+
+.layout>.content>.main-section>.images-block>ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: o 150px;
+}
+
+.layout>.content>.second-section {
+    background: rgb(0, 0, 0);
+    height: 334px;
+}
+
+.layout>.content>.second-section>.small-container {
+    padding: 86px 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout>.content>.second-section>.small-container .number img {
+    width: 250px;
+    height: 100px;
+}
+
+
+
+.layout>.content>.second-section>.small-container .description {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 500;
+    width: 214px;
+    text-align: center
+}
+
+.layout>.content>.second-section>.small-container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout>.content>.third-section {
+    padding: 95px 90px;
+}
+
+.layout>.content>.third-section>.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.layout>.content>.third-section>.title>p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.layout>.content>.third-section>.advantages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.layout>.content>.third-section>.advantages .subtitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.layout>.content>.third-section>.advantages .description {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.layout>.content>.third-section>.advantages .item{
+    width: 417px;
+    height: 187px;
+    background: rgba(195, 215, 167, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 38px 26px;
+    border-radius: 16px;
+}
+
+.layout>.content>.third-section>.animals-photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.layout>.header>.menu a{
+    color: black;
+    text-decoration: none;
 }
