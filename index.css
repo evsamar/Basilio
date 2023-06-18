@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.layout>.header {
+    flex: 0 0  150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.layout>.header>.brand {
+    width: 20%;
+}
+
+.layout>.header>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.layout>.header>.menu {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.layout>.header>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+}
+
+.layout>.footer {
+    flex: 0 0 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout>.footer>.brand {
+    padding-left: 90px;
+    width: 24%;
+}
+
+
+.layout>.footer>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+.layout>.footer>.socialmedia {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.layout>.footer>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-right: 90px;
+}
+
+.layout>.content {
+    flex: 1 1;
+}
+
+.layout>.content>iframe {
+    height: 100%;
+    background: red;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
