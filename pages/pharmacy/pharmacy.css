@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+}
+
+.layout>.header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.layout>.header>.brand {
+    width: 20%;
+}
+
+.layout>.header>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.layout>.header>.menu {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.layout>.header>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+}
+
+.layout>.footer {
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout>.footer>.brand {
+    padding-left: 90px;
+    width: 24%;
+}
+
+
+.layout>.footer>.brand>p {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+.layout>.footer>.socialmedia {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.layout>.footer>.phone {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-right: 90px;
+}
+
+.layout>.header>.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.layout>.content>.discounts>.sale {
+   position: relative;
+    display: flex;
+    justify-content: center;
+    top: 25px;
+}
+
+.layout>.content>.discounts>.sale img {
+    width: 220px;
+    height: 150px;
+}
+
+.layout>.content>.discounts>.first-block {
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 170px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side{
+    position: relative;
+   
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.title{
+    position: relative;
+    width: 824px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.title>p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+}
+
+
+.layout>.content>.discounts>.first-block>.left-side>.discount-period {
+    padding: 10px 0 34px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.discount-period>p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.description {
+    width: 600px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.description>p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.look-btn {
+    padding-top: 48px;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.look-btn button {
+    border: none;
+    background: black;
+    cursor: pointer;
+    width: 333px;
+    padding: 26px 0;
+    border-radius: 26px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.layout>.content>.discounts>.first-block>.left-side>.look-btn button:hover {
+    background: rgb(46, 46, 46);
+}
+
+.layout>.content>.discounts>.first-block>.right-side{
+    position: relative;
+    top: 50px;
+    right: 200px;
+}
+
+.layout>.content>.discounts>.first-block>.right-side>img{
+    width: 778px;
+    height: 665px;
+}
