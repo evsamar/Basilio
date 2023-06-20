@@ -232,7 +232,7 @@
 }
 
 .layout>.content>.third-section {
-padding: 20px 50px 100px;
+    padding: 20px 50px 100px;
 }
 
 .layout>.content>.third-section>.title {
@@ -252,7 +252,7 @@ padding: 20px 50px 100px;
     padding-top: 80px;
 }
 
-.layout>.content>.third-section>.popular-goods .card-product{
+.layout>.content>.third-section>.popular-goods .card-product {
     width: 340px;
     text-align: center;
     border: 1px solid black;
@@ -261,13 +261,9 @@ padding: 20px 50px 100px;
 
 }
 
-.layout>.content>.third-section>.popular-goods>.monge {
-    
-}
+.layout>.content>.third-section>.popular-goods>.monge {}
 
-.layout>.content>.third-section>.popular-goods>.pro-plan>.actual-price {
-    
-}
+.layout>.content>.third-section>.popular-goods>.pro-plan>.actual-price {}
 
 .layout>.content>.third-section>.popular-goods>.perfectfit {}
 
@@ -281,8 +277,8 @@ padding: 20px 50px 100px;
 }
 
 .layout>.content>.third-section>.popular-goods .title {
-padding-top: 30px;
-height: 100px;
+    padding-top: 30px;
+    height: 100px;
 }
 
 .layout>.content>.third-section>.popular-goods .title p {
@@ -291,8 +287,15 @@ height: 100px;
     font-size: 18px;
 }
 
+.layout>.content>.third-section>.popular-goods .price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .layout>.content>.third-section>.popular-goods .old-price {
     padding-top: 20px;
+    height: 24px;
 }
 
 .layout>.content>.third-section>.popular-goods .old-price p {
@@ -302,9 +305,8 @@ height: 100px;
     text-decoration: line-through;
 }
 
-.layout>.content>.third-section>.popular-goods .actual-price{
-    display: flex;
-    align-items: flex-end;
+.layout>.content>.third-section>.popular-goods .actual-price {
+height: 24px;
 }
 
 .layout>.content>.third-section>.popular-goods .actual-price p {
