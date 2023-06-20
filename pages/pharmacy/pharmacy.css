@@ -93,7 +93,7 @@
 }
 
 .layout>.content>.discounts>.sale {
-   position: relative;
+    position: relative;
     display: flex;
     justify-content: center;
     top: 25px;
@@ -111,12 +111,12 @@
     padding-bottom: 170px;
 }
 
-.layout>.content>.discounts>.first-block>.left-side{
+.layout>.content>.discounts>.first-block>.left-side {
     position: relative;
-   
+
 }
 
-.layout>.content>.discounts>.first-block>.left-side>.title{
+.layout>.content>.discounts>.first-block>.left-side>.title {
     position: relative;
     width: 824px;
 }
@@ -173,13 +173,62 @@
     background: rgb(46, 46, 46);
 }
 
-.layout>.content>.discounts>.first-block>.right-side{
+.layout>.content>.discounts>.first-block>.right-side {
     position: relative;
     top: 50px;
     right: 200px;
 }
 
-.layout>.content>.discounts>.first-block>.right-side>img{
+.layout>.content>.discounts>.first-block>.right-side>img {
     width: 778px;
     height: 665px;
+}
+
+.layout>.content>.second-section {
+    padding: 0 90px;
+}
+
+.layout>.content>.second-section>.title {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 70px;
+}
+
+.layout>.content>.second-section>.title>p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.layout>.content>.second-section>.product-categories {}
+
+.layout>.content>.second-section>.product-categories>.products {
+    display: grid;
+    grid-template-columns: repeat(4, 315px);
+    grid-auto-rows: 315px;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.layout>.content>.second-section>.product-categories>.products div {
+    position: relative;
+    text-align: center;
+   
+}
+
+.layout>.content>.second-section>.product-categories>.products div p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.layout>.content>.second-section>.product-categories>.products img {
+    filter: brightness(50%);
+border-radius: 19px;
 }
