@@ -191,7 +191,7 @@
 .layout>.content>.second-section>.title {
     display: flex;
     justify-content: center;
-    padding: 60px 0 70px;
+    padding: 20px 0 70px;
 }
 
 .layout>.content>.second-section>.title>p {
@@ -200,9 +200,7 @@
     font-size: 64px;
 }
 
-.layout>.content>.second-section>.product-categories {}
-
-.layout>.content>.second-section>.product-categories>.products {
+.layout>.content>.second-section>.product-categories {
     display: grid;
     grid-template-columns: repeat(4, 315px);
     grid-auto-rows: 315px;
@@ -211,13 +209,13 @@
     padding-bottom: 100px;
 }
 
-.layout>.content>.second-section>.product-categories>.products div {
+.layout>.content>.second-section>.product-categories div {
     position: relative;
     text-align: center;
-   
+
 }
 
-.layout>.content>.second-section>.product-categories>.products div p {
+.layout>.content>.second-section>.product-categories div p {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 33px;
@@ -228,7 +226,96 @@
     color: white;
 }
 
-.layout>.content>.second-section>.product-categories>.products img {
+.layout>.content>.second-section>.product-categories img {
     filter: brightness(50%);
-border-radius: 19px;
+    border-radius: 19px;
+}
+
+.layout>.content>.third-section {
+padding: 20px 50px 100px;
+}
+
+.layout>.content>.third-section>.title {
+    display: flex;
+    justify-content: center;
+}
+
+.layout>.content>.third-section>.title>p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.layout>.content>.third-section>.popular-goods {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.layout>.content>.third-section>.popular-goods .card-product{
+    width: 340px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 35px 10px;
+    border-radius: 15px;
+
+}
+
+.layout>.content>.third-section>.popular-goods>.monge {
+    
+}
+
+.layout>.content>.third-section>.popular-goods>.pro-plan>.actual-price {
+    
+}
+
+.layout>.content>.third-section>.popular-goods>.perfectfit {}
+
+.layout>.content>.third-section>.popular-goods>.bars {}
+
+.layout>.content>.third-section>.popular-goods>.product-photo {}
+
+.layout>.content>.third-section>.popular-goods img {
+    width: 271px;
+    height: 271px;
+}
+
+.layout>.content>.third-section>.popular-goods .title {
+padding-top: 30px;
+height: 100px;
+}
+
+.layout>.content>.third-section>.popular-goods .title p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.layout>.content>.third-section>.popular-goods .old-price {
+    padding-top: 20px;
+}
+
+.layout>.content>.third-section>.popular-goods .old-price p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.layout>.content>.third-section>.popular-goods .actual-price{
+    display: flex;
+    align-items: flex-end;
+}
+
+.layout>.content>.third-section>.popular-goods .actual-price p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.layout>.content>.third-section>.popular-goods .availability p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 19px;
+    color: rgba(82, 82, 82, 1);
 }
