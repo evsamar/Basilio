@@ -258,18 +258,7 @@
     border: 1px solid black;
     padding: 35px 10px;
     border-radius: 15px;
-
 }
-
-.layout>.content>.third-section>.popular-goods>.monge {}
-
-.layout>.content>.third-section>.popular-goods>.pro-plan>.actual-price {}
-
-.layout>.content>.third-section>.popular-goods>.perfectfit {}
-
-.layout>.content>.third-section>.popular-goods>.bars {}
-
-.layout>.content>.third-section>.popular-goods>.product-photo {}
 
 .layout>.content>.third-section>.popular-goods img {
     width: 271px;
@@ -291,10 +280,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 19px;
 }
 
 .layout>.content>.third-section>.popular-goods .old-price {
-    padding-top: 20px;
     height: 24px;
 }
 
@@ -306,7 +295,7 @@
 }
 
 .layout>.content>.third-section>.popular-goods .actual-price {
-height: 24px;
+    height: 24px;
 }
 
 .layout>.content>.third-section>.popular-goods .actual-price p {
@@ -320,4 +309,5 @@ height: 24px;
     font-weight: 500;
     font-size: 19px;
     color: rgba(82, 82, 82, 1);
+    padding-top: 20px;
 }
