@@ -1,196 +1,207 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .layout {
-    height: 100%;
-    width: 100%;
-    align-items: stretch;
+  height: 100%;
+  width: 100%;
+  align-items: stretch;
 }
 
-.layout>.header {
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 90px;
+.layout > .header {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 90px;
 }
 
-.layout>.header>.brand {
-    width: 20%;
+.layout > .header > .brand {
+  width: 20%;
 }
 
-.layout>.header>.brand>p {
-    font-family: 'Playfair Display';
-    font-weight: 800;
-    font-size: 28px;
+.layout > .header > .brand > p {
+  font-family: "Playfair Display";
+  font-weight: 800;
+  font-size: 28px;
 }
 
-.layout>.header>.menu {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 17px;
-    text-align: center;
-    display: flex;
-    list-style-type: none;
-    width: 50%;
-    justify-content: space-between;
+.layout > .header > .menu {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+  width: 50%;
+  justify-content: space-between;
 }
 
-
-.layout>.header>.phone {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 20px;
-    width: 20%;
-    text-align: right;
+.layout > .header > .phone {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  width: 20%;
+  text-align: right;
 }
 
-.layout>.footer {
-    height: 200px;
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.layout > .footer {
+  height: 200px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.layout>.footer>.brand {
-    padding-left: 90px;
-    width: 24%;
+.layout > .footer > .brand {
+  padding-left: 90px;
+  width: 24%;
 }
 
-
-.layout>.footer>.brand>p {
-    font-family: 'Playfair Display';
-    font-weight: 800;
-    font-size: 28px;
-    color: white;
+.layout > .footer > .brand > p {
+  font-family: "Playfair Display";
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
 }
 
-.layout>.footer>.socialmedia {
-    text-align: center;
-    display: flex;
-    list-style-type: none;
-    width: 10%;
-    justify-content: space-between;
+.layout > .footer > .socialmedia {
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+  width: 10%;
+  justify-content: space-between;
 }
 
-.layout>.footer>.phone {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 20px;
-    width: 24%;
-    text-align: right;
-    color: white;
-    padding-right: 90px;
+.layout > .footer > .phone {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  width: 24%;
+  text-align: right;
+  color: white;
+  padding-right: 90px;
 }
 
-.layout>.header>.menu a {
-    color: black;
-    text-decoration: none;
+.layout > .header > .menu a {
+  color: black;
+  text-decoration: none;
 }
 
-.layout>.content>.services-section {
-padding: 0 20px;
+.layout > .content > .services-section {
+  padding: 0 20px;
 }
 
-.layout>.content>.services-section>.main-title {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+.layout > .content > .services-section > .main-title {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
-.layout>.content>.services-section>.main-title>p {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 64px;
+.layout > .content > .services-section > .main-title > p {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 64px;
 }
 
-.layout>.content>.services-section>.service-carousel {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.layout > .content > .services-section > .service-carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.layout>.content>.services-section>.service-carousel button {
-    border-radius: 20px;
-    font-size: 50px;
-    padding: 0 10px;
-    text-align: center;
-    align-items: center;
-    background: white;
-    cursor: pointer;
-    height: 65px;
-    transition: all 0.5s ease;
+.layout > .content > .services-section > .service-carousel button {
+  border-radius: 20px;
+  font-size: 50px;
+  padding: 0 10px;
+  text-align: center;
+  align-items: center;
+  background: white;
+  cursor: pointer;
+  height: 65px;
+  transition: all 0.5s ease;
 }
 
-.layout>.content>.services-section>.service-carousel>.slider-elements{
-    width: 1250px;
-    overflow: hidden;
+.layout > .content > .services-section > .service-carousel > .slider-elements {
+  width: 1250px;
+  overflow: hidden;
 }
 
-.layout>.content>.services-section>.service-carousel .slider-line{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-    gap: 25px;
+.layout > .content > .services-section > .service-carousel .slider-line {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  gap: 25px;
 }
 
-.layout>.content>.services-section>.service-carousel .slider-line .slider{
-    width: 417px;
-    height: 287px;
-    background: rgb(0, 0, 0);
-    text-align: center;
-    padding: 59px 0;
-    border-radius: 31px;
+.layout
+  > .content
+  > .services-section
+  > .service-carousel
+  .slider-line
+  .slider {
+  width: 417px;
+  height: 287px;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  padding: 59px 0;
+  border-radius: 31px;
 }
 
-
-.layout>.content>.services-section>.service-carousel .slider-line .title p{
-    font-family: 'Montserrat';
-    color: white;
-    font-weight: 700;
-    font-size: 33px;
-    width: 400px;
+.layout
+  > .content
+  > .services-section
+  > .service-carousel
+  .slider-line
+  .title
+  p {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 700;
+  font-size: 33px;
+  width: 400px;
 }
 
-.layout>.content>.services-section>.service-carousel .slider-line .description p{
-    font-family: 'Montserrat';
-    color: white;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 30px 50px 0;
+.layout
+  > .content
+  > .services-section
+  > .service-carousel
+  .slider-line
+  .description
+  p {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 30px 50px 0;
 }
 
-.layout>.content>.services-section>.service-carousel button:hover {
-    transition: all 0.5s ease;
+.layout > .content > .services-section > .service-carousel button:hover {
+  transition: all 0.5s ease;
 }
 
-.layout>.content>.services-section>.service-carousel button:hover {
-    background: rgb(194, 194, 194);
+.layout > .content > .services-section > .service-carousel button:hover {
+  background: rgb(194, 194, 194);
 }
 
-.layout>.content>.services-section>.dots{
- display: flex;
-width: 100%;
-justify-content: center ;
-gap: 10px;
-padding-bottom: 100px;
+.layout > .content > .services-section > .dots {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 100px;
 }
 
-.layout>.content>.services-section .dot{
-    width: 20px;
-    height: 20px;
-    background: rgb(132, 132, 132);
-    border-radius: 50%;
+.layout > .content > .services-section .dot {
+  width: 20px;
+  height: 20px;
+  background: rgb(132, 132, 132);
+  border-radius: 50%;
 }
 
-.layout>.content>.services-section>.dots .active{
-    background: black ;
+.layout > .content > .services-section > .dots .active {
+  background: black;
 }
-
-
-
