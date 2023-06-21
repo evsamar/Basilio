@@ -1,17 +1,7 @@
-$(document).ready(function(){
+$('.popular-goods').on ('click' , function() {
+$('.popup-inner').addClass('active');
+});
 
-    // Открытие всплывающего окна по клику на кнопку
-    $('.card-product').click(function(){
-      $('.popup').fadeIn();
-    });
-    
-    // Загрузка HTML-файла по клику на кнопку
-    $('.card-product').click(function(){
-      $('.popup').load('popup.html');
-    });
-    
-    // Закрытие всплывающего окна по клику на кнопку
-    $('.symbol-close').click(function(){
-      $('.popup').fadeOut();
-    });
+$('.symbol-close').on ('click' , function() {
+  $('.popup-inner').removeClass('active');
   });
