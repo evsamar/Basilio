@@ -1,22 +1,16 @@
 const sliderLine = document.querySelector('.slider-line')
 const prevButton = document.querySelector('.prev-btn')
 const nextButton = document.querySelector('.next-btn')
-//тут нужно было получить не dots, а dot ==================================== !!!
+
 const dots = document.querySelectorAll('.dot')
 
 let position = 0;
 let dotIndex = 0;
 
-//тут тут вынес константу, а dot ==================================== !!!
+
 const serviceWidth = 1275
 
 const nextSlide = () => {
-    //можно сделать так
-    const condition = (dots.length - 1) * serviceWidth
-    position = condition ? position + serviceWidth : 0
-    position = condition ? position + 1 : 0
-
-    //вместо этого
     if (position < (dots.length - 1) * serviceWidth) {
         position += serviceWidth;
         dotIndex++;
