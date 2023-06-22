@@ -313,7 +313,7 @@
     padding-top: 20px;
 }
 
-.popup-inner{
+.popup-inner {
     position: fixed;
     z-index: 2;
     top: 0;
@@ -341,7 +341,7 @@
     top: 25px;
     width: 35px;
     height: 35px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .popup-inner>.popup>.symbol-close>img {
@@ -365,7 +365,6 @@ cursor: pointer;
     width: 452px;
 }
 
-.popup-inner.active{
-display: block;
+.popup-inner.active {
+    display: block;
 }
-

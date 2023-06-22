@@ -289,7 +289,7 @@
     padding-top: 10px;
 }
 
-.layout>.content>.third-section>.advantages .item{
+.layout>.content>.third-section>.advantages .item {
     width: 417px;
     height: 187px;
     background: rgba(195, 215, 167, 1);
@@ -307,7 +307,7 @@
     padding-top: 70px;
 }
 
-.layout>.header>.menu a{
+.layout>.header>.menu a {
     color: black;
     text-decoration: none;
 }
