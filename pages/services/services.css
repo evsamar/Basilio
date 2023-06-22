@@ -226,10 +226,16 @@
   font-size: 24px;
 }
 
-.layout>.content>.cost-calculator>.content-calculator select {
-  display: block;
+.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type{
+  position: relative;
   width: 470px;
   height: 55px;
+}
+
+.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type select {
+  display: block;
+ width: 100%;
+ height: 100%;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 24px;
@@ -241,15 +247,10 @@
 
 }
 
-select::after {
-  content: "#9660";
-  position: absolute;
-  top: 50%;
-  right: 0.5em;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.5em 0.5em 0 0.5em;
-  border-color: #333 transparent transparent transparent; /* цвета границ */
-  transform: translateY(-50%) rotate(45deg);
+.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type>.arrow-select{
+ font-size: 30px;
+position: absolute;
+
+
 }
+
