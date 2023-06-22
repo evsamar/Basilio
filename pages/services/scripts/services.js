@@ -59,4 +59,4 @@ dots.forEach((dot, index) => {
 
 setInterval(() => {
     nextSlide()
-}, 5000)
+}, 20000)

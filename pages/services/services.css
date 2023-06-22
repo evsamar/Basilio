@@ -10,7 +10,7 @@
   align-items: stretch;
 }
 
-.layout > .header {
+.layout>.header {
   height: 150px;
   display: flex;
   justify-content: space-between;
@@ -18,17 +18,17 @@
   padding: 0 90px;
 }
 
-.layout > .header > .brand {
+.layout>.header>.brand {
   width: 20%;
 }
 
-.layout > .header > .brand > p {
+.layout>.header>.brand>p {
   font-family: "Playfair Display";
   font-weight: 800;
   font-size: 28px;
 }
 
-.layout > .header > .menu {
+.layout>.header>.menu {
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 17px;
@@ -39,7 +39,7 @@
   justify-content: space-between;
 }
 
-.layout > .header > .phone {
+.layout>.header>.phone {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 20px;
@@ -47,7 +47,7 @@
   text-align: right;
 }
 
-.layout > .footer {
+.layout>.footer {
   height: 200px;
   background: black;
   display: flex;
@@ -55,19 +55,19 @@
   align-items: center;
 }
 
-.layout > .footer > .brand {
+.layout>.footer>.brand {
   padding-left: 90px;
   width: 24%;
 }
 
-.layout > .footer > .brand > p {
+.layout>.footer>.brand>p {
   font-family: "Playfair Display";
   font-weight: 800;
   font-size: 28px;
   color: white;
 }
 
-.layout > .footer > .socialmedia {
+.layout>.footer>.socialmedia {
   text-align: center;
   display: flex;
   list-style-type: none;
@@ -75,7 +75,7 @@
   justify-content: space-between;
 }
 
-.layout > .footer > .phone {
+.layout>.footer>.phone {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 20px;
@@ -85,34 +85,34 @@
   padding-right: 90px;
 }
 
-.layout > .header > .menu a {
+.layout>.header>.menu a {
   color: black;
   text-decoration: none;
 }
 
-.layout > .content > .services-section {
+.layout>.content>.services-section {
   padding: 0 20px;
 }
 
-.layout > .content > .services-section > .main-title {
+.layout>.content>.services-section>.main-title {
   display: flex;
   justify-content: center;
   padding: 30px;
 }
 
-.layout > .content > .services-section > .main-title > p {
+.layout>.content>.services-section>.main-title>p {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 64px;
 }
 
-.layout > .content > .services-section > .service-carousel {
+.layout>.content>.services-section>.service-carousel {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.layout > .content > .services-section > .service-carousel button {
+.layout>.content>.services-section>.service-carousel button {
   border-radius: 20px;
   font-size: 50px;
   padding: 0 10px;
@@ -124,12 +124,12 @@
   transition: all 0.5s ease;
 }
 
-.layout > .content > .services-section > .service-carousel > .slider-elements {
+.layout>.content>.services-section>.service-carousel>.slider-elements {
   width: 1250px;
   overflow: hidden;
 }
 
-.layout > .content > .services-section > .service-carousel .slider-line {
+.layout>.content>.services-section>.service-carousel .slider-line {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -137,12 +137,7 @@
   gap: 25px;
 }
 
-.layout
-  > .content
-  > .services-section
-  > .service-carousel
-  .slider-line
-  .slider {
+.layout>.content>.services-section>.service-carousel .slider-line .slider {
   width: 417px;
   height: 287px;
   background: rgb(0, 0, 0);
@@ -151,13 +146,7 @@
   border-radius: 31px;
 }
 
-.layout
-  > .content
-  > .services-section
-  > .service-carousel
-  .slider-line
-  .title
-  p {
+.layout>.content>.services-section>.service-carousel .slider-line .title p {
   font-family: "Montserrat";
   color: white;
   font-weight: 700;
@@ -165,13 +154,7 @@
   width: 400px;
 }
 
-.layout
-  > .content
-  > .services-section
-  > .service-carousel
-  .slider-line
-  .description
-  p {
+.layout>.content>.services-section>.service-carousel .slider-line .description p {
   font-family: "Montserrat";
   color: white;
   font-weight: 400;
@@ -179,15 +162,15 @@
   padding: 30px 50px 0;
 }
 
-.layout > .content > .services-section > .service-carousel button:hover {
+.layout>.content>.services-section>.service-carousel button:hover {
   transition: all 0.5s ease;
 }
 
-.layout > .content > .services-section > .service-carousel button:hover {
+.layout>.content>.services-section>.service-carousel button:hover {
   background: rgb(194, 194, 194);
 }
 
-.layout > .content > .services-section > .dots {
+.layout>.content>.services-section>.dots {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -195,13 +178,78 @@
   padding-bottom: 100px;
 }
 
-.layout > .content > .services-section .dot {
+.layout>.content>.services-section .dot {
   width: 20px;
   height: 20px;
   background: rgb(132, 132, 132);
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.layout > .content > .services-section > .dots .active {
+.layout>.content>.services-section .dot:hover {
+  background: rgb(150, 150, 150);
+}
+
+.layout>.content>.services-section>.dots .active {
   background: black;
+}
+
+.layout>.content>.cost-calculator {
+  width: 1400px;
+  height: 500px;
+  background: rgba(195, 215, 167, 1);
+  margin: 60px;
+  border-radius: 29px;
+}
+
+.layout>.content>.cost-calculator>.title {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.layout>.content>.cost-calculator>.title>p {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.layout>.content>.cost-calculator>.content-calculator {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 170px 0;
+}
+
+.layout>.content>.cost-calculator>.content-calculator p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.layout>.content>.cost-calculator>.content-calculator select {
+  display: block;
+  width: 470px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 15px;
+  background: none;
+  outline: 2px solid rgb(0, 0, 0);
+  padding: 3px 15px;
+  appearance: none;
+
+}
+
+select::after {
+  content: "#9660";
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.5em 0.5em 0 0.5em;
+  border-color: #333 transparent transparent transparent; /* цвета границ */
+  transform: translateY(-50%) rotate(45deg);
 }
