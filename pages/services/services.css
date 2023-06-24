@@ -110,6 +110,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .layout>.content>.services-section>.service-carousel button {
@@ -135,6 +136,7 @@
   justify-content: space-between;
   padding: 20px 0;
   gap: 25px;
+  transition: all 0.5s ease;
 }
 
 .layout>.content>.services-section>.service-carousel .slider-line .slider {
@@ -226,7 +228,7 @@
   font-size: 24px;
 }
 
-.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type{
+.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type {
   position: relative;
   width: 470px;
   height: 55px;
@@ -234,23 +236,61 @@
 
 .layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type select {
   display: block;
- width: 100%;
- height: 100%;
+  width: 100%;
+  height: 100%;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 24px;
   border-radius: 15px;
   background: none;
   outline: 2px solid rgb(0, 0, 0);
-  padding: 3px 15px;
+  padding: 3px 20px;
   appearance: none;
-
+  margin: 25px 0;
+  cursor: pointer;
 }
 
-.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type>.arrow-select{
- font-size: 30px;
-position: absolute;
+.layout>.content>.cost-calculator>.content-calculator>.choice-of-services>.select-services-type>.arrow-select {
+  font-size: 25px;
+  position: absolute;
+  text-align: right;
+  right: 20px;
+  bottom: 20%;
+}
 
+.layout>.content>.cost-calculator>.content-calculator input {
+  border: 0;
+  border-bottom: 2px solid black;
+  background: rgba(0, 0, 0, 0);
+  outline: 0;
+  cursor: pointer;
+  width: 310px;
+  height: 55px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  padding: 3px 20px;
+  margin: 25px 0;
+}
 
+.layout>.content>.cost-calculator>.calculate-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.layout>.content>.cost-calculator>.calculate-btn button {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background: black;
+  border: none;
+  padding: 23px 95px;
+  border-radius: 26px;
+  margin: 65px 0;
+}
+
+.layout>.content>.cost-calculator>.calculate-btn button:hover{
+  background: rgb(37, 37, 37);
 }
 

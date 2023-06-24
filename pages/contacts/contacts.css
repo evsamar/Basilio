@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .layout {
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+  }
+  
+  .layout>.header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+  }
+  
+  .layout>.header>.brand {
+    width: 20%;
+  }
+  
+  .layout>.header>.brand>p {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 28px;
+  }
+  
+  .layout>.header>.menu {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  .layout>.header>.phone {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+  }
+  
+  .layout>.footer {
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .layout>.footer>.brand {
+    padding-left: 90px;
+    width: 24%;
+  }
+  
+  .layout>.footer>.brand>p {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .layout>.footer>.socialmedia {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-between;
+  }
+  
+  .layout>.footer>.phone {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-right: 90px;
+  }
+  
+  .layout>.header>.menu a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .layout>.content{
+    padding: 0 90px;
+  }
+
+  .layout>.content>.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .layout>.content>.title>p{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 64px;
+  }
+
+  .layout>.content>.employees{
+    display: flex;
+    justify-content: left;
+    gap: 57px;
+    padding-top: 70px;
+    text-align: center;
+  }
+
+  .layout>.content>.employees img{
+    width: 177px;
+    height: 177px;
+    border-radius: 50%;
+  }
+
+  .layout>.content>.employees .name{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 11px;
+  }
+
+  .layout>.content>.employees .post{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-size: 22px;
+  }
+
+  .layout>.content>.map{
+   display: flex;
+   justify-content: center;
+   margin: 95px 0 80;
+  }
+
+  .layout>.content>.information-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  .layout>.content>.information-block .title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 33px;
+  }
+
+  .layout>.content>.information-block .description{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+
+  .layout>.content>.information-block .info{
+    width: 441px;
+  }
+
+  .layout>.content>.information-block>.address>.phone{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration-line: underline;
+    padding: 15px 0;
+  } 
+
+  .layout>.content>.information-block>.address>.working-hours{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .layout>.content>.information-block>.connection>.inputs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .layout>.content>.information-block>.connection>.inputs input{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.57);
+    padding: 14px 250px 14px 31px;
+    border-radius: 21px;
+    border: 2px solid #000;
+    margin: 5px 0;
+  }
+
+  .layout>.content>.information-block>.connection>.connection-btn button{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 23px 98px;
+    border-radius: 26px;
+    border: none;
+    margin-top: 35px;
+  }
+
+  .layout>.content>.information-block>.connection>.connection-btn button:hover{
+    background: rgb(41, 41, 41);
+  }
+

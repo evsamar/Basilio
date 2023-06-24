@@ -4,48 +4,48 @@ const nextButton = document.querySelector('.next-btn')
 
 const dots = document.querySelectorAll('.dot')
 
-let position = 0;
-let dotIndex = 0;
+let position = 0
+let dotIndex = 0
 
 
 const serviceWidth = 1275
 
 const nextSlide = () => {
     if (position < (dots.length - 1) * serviceWidth) {
-        position += serviceWidth;
-        dotIndex++;
+        position += serviceWidth
+        dotIndex++
     } else {
-        position = 0;
-        dotIndex = 0;
+        position = 0
+        dotIndex = 0
     }
 
-    sliderLine.style.left = -position + 'px';
+    sliderLine.style.left = -position + 'px'
     thisSlide(dotIndex)
 }
 
 const prevSlide = () => {
     if (position > 0) {
-        position -= serviceWidth;
-        dotIndex--;
+        position -= serviceWidth
+        dotIndex--
     } else {
-        position = (dots.length - 1) * serviceWidth;
-        dotIndex = (dots.length - 1);
+        position = (dots.length - 1) * serviceWidth
+        dotIndex = (dots.length - 1)
     }
 
-    sliderLine.style.left = -position + 'px';
-    thisSlide(dotIndex);
+    sliderLine.style.left = -position + 'px'
+    thisSlide(dotIndex)
 }
 
 const thisSlide = (index) => {
     for (let dot of dots) {
-        dot.classList.remove('active');
+        dot.classList.remove('active')
     }
-    dots[index].classList.add('active');
+    dots[index].classList.add('active')
 }
 
 
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
+nextButton.addEventListener('click', nextSlide)
+prevButton.addEventListener('click', prevSlide)
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {

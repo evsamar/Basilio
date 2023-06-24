@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+}
+
+.layout>.header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.layout>.header>.brand {
+    width: 20%;
+}
+
+.layout>.header>.brand>p {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.layout>.header>.menu {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.layout>.header>.phone {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+}
+
+.layout>.footer {
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout>.footer>.brand {
+    padding-left: 90px;
+    width: 24%;
+}
+
+.layout>.footer>.brand>p {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+}
+
+.layout>.footer>.socialmedia {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.layout>.footer>.phone {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-right: 90px;
+}
+
+.layout>.header>.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.layout>.content>.reviews-section>.post-review {
+  
+    height: 277px;
+    background: rgba(195, 215, 167, 1);
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+}
+
+
+.layout>.content>.reviews-section>.post-review>.post-review-container {
+    background: rgba(195, 215, 167, 1);
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-radius: 10px;
+
+}
+
+.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.title{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 40px;
+    width: 716px;
+}
+
+.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.email{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 30px;
+}
+
