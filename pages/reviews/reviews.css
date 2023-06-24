@@ -92,7 +92,7 @@
 
 
 .layout>.content>.reviews-section>.post-review {
-  
+border-radius: 20px;
     height: 277px;
     background: rgba(195, 215, 167, 1);
     display: flex;
@@ -104,7 +104,7 @@
 .layout>.content>.reviews-section>.post-review>.post-review-container {
     background: rgba(195, 215, 167, 1);
     width: 100%;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,16 +113,58 @@
 
 }
 
-.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.title{
+.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.title {
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 40px;
     width: 716px;
 }
 
-.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.email{
+.layout>.content>.reviews-section>.post-review>.post-review-container>.text>.email {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 30px;
 }
 
+.layout>.content>.reviews-section>.rewiew-block>.rewiews {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.layout>.content>.reviews-section>.rewiew-block>.rewiews .description {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    text-align: justify;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.layout>.content>.reviews-section>.rewiew-block>.rewiews .rewiew {
+    background: black;
+    width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 20px;
+
+}
+
+.layout>.content>.reviews-section>.rewiew-block>.rewiews img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
