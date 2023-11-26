@@ -168,3 +168,23 @@ border-radius: 20px;
     display: flex;
     justify-content: center;
 }
+
+.layout>.content>.reviews-section>.rewiew-block>.rewiew-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.layout>.content>.reviews-section>.rewiew-block>.rewiew-btn button{
+    padding: 25px 50px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    background: black;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
